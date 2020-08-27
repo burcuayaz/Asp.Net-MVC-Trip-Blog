@@ -1,0 +1,13 @@
+﻿@model TravelTripProje.Models.Siniflar.Blog
+
+@{
+    ViewBag.Title = "YeniBlog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yeni Blog Ekleme</h2>
+<br/>
+<form class="form-group" method="post">
+    @Html.LabelFor(x => x.Baslik)
+    @Html.TextBoxFor(x => x.Baslik)
+</form>
