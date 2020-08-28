@@ -60,15 +60,7 @@
 
                 }
 
-                <div class="content-form">
-                    <h3>Bir Yorum Yapın</h3>
-                    <form>
-                        <input type="text" placeholder="Kullanıcı adı" required />
-                        <input type="text" placeholder="Mail adresi" required />
-                        <textarea placeholder="Yorum"></textarea>
-                        <input type="submit" value="Gönder" />
-                    </form>
-                </div>
+               @Html.Action("YorumYap","Blog")
             </div>
 
             <div class="col-md-4 side-content">
