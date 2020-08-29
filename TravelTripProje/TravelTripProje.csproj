@@ -131,6 +131,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\GirisYapController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -178,6 +179,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="loginTema\css\style.css" />
+    <Content Include="loginTema\images\b4.jpg" />
+    <Content Include="loginTema\index.html" />
+    <Content Include="loginTema\w3layouts-License.txt" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -256,6 +261,11 @@
     <Content Include="Views\Admin\YeniBlog.cshtml" />
     <Content Include="Views\Admin\BlogGetir.cshtml" />
     <Content Include="Views\Blog\YorumYap.cshtml" />
+    <Content Include="Views\Admin\YorumListesi.cshtml" />
+    <Content Include="Views\Admin\YorumGetir.cshtml" />
+    <Content Include="loginTema\fonts\Asap-Regular.ttf" />
+    <Content Include="loginTema\fonts\Audiowide-Regular.ttf" />
+    <Content Include="Views\GirisYap\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
